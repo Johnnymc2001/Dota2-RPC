@@ -18,5 +18,3 @@
 # Implementation
 
 ![Ingmae](https://i.imgur.com/oNBPAUy.png)
-
-
