@@ -1,0 +1,13 @@
+{
+	"name": "dota2-gsi",
+	"version": "1.0.0",
+	"main": "main.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index"
+	},
+	"dependencies": {
+		"discord-auto-rpc": "^1.0.16",
+		"dota2-gsi": "^1.0.2"
+	}
+}
