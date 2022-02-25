@@ -17,8 +17,11 @@ server.events.on("newclient", function (client) {
 setInterval(function () {
 	dotaClients.forEach(function (client, index) {
 		// States Setup
-		const state = client.gamestate.map.game_state;
-
+		var state = null;
+		if (client.gamestate.map) {
+			state = client.gamestate.map.game_state;
+		}
+		
 		const gs = client.gamestate;
 		const player = gs.player;
 		const hero = gs.hero;
